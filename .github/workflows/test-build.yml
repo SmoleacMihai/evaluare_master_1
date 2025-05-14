@@ -3,8 +3,6 @@ name: Test and Build
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
   test:
@@ -18,7 +16,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install pytest  # Explicit install (if not in requirements.txt)
+      - name: List files (debug)
+        run: ls -R  # Afișează structura fișierelor
       - name: Run tests
         run: |
-          python -m pytest -v  # Verbose mode to show test names
+          python -m pytest -v

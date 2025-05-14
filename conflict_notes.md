@@ -1,1 +1,1 @@
-"Am pastrat func?ionalitatea de baza din feature-b ?i am inclus validarea adaugata Œn feature-a." 
+Am ales sa las textul Goodbye usarb deoarece imi place mai tare
