@@ -1,0 +1,1 @@
+Am ales sa las textul Goodbye usarb deoarece imi place mai tare
